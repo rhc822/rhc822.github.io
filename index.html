@@ -1,337 +1,190 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Ryan Cunningham Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+<title>Ryan Cunningham Web Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
-    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Ryan Cunningham</b> Web Developer</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a
+        href="#about"
+        class="w3-bar-item w3-button">
+        About
+      </a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <!-- <img id="header_image" class="w3-image" src="images/header_image.png" alt="Architecture" width="1500" height="800"> -->
+  <img class="w3-image header_image" src="images/header_image.png" alt="Architecture" style="object-fit:cover;object-position: 0 20%;width:100%;height:700px;">
+  <div class="w3-display-left w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Ryan Cunningham</b></span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-hide-small w3-text-black">Web Developer</span></h1>
+  </div>
+</header>
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>I chose to pursue software development because of the opportunity that this career opens up in terms of industries and roles. I enjoy the culture of continued learning; there's always more to learn and more to become. Prior to this, I was a technical writer/content writer/instructional technologist with over 10 years of experience in various industries and in numerous contexts.
+    </p>
+  </div>
 
 
+  <!-- PROJECTS SECTION -->
+  <div
+    class="w3-container w3-padding-32"
+    id="projects">
+    <h3
+      class="w3-border-bottom w3-border-light-grey w3-padding-16">
+      Projects
+    </h3>
+  </div>
 
-  <div class="site-wrap">
+  <!-- ESL Flashcard app -->
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
+  <div
+    class="w3-row"
+    style="margin-bottom:100px;">
+    <div
+      class="w3-half w3-center w3-mobile w3-display-container">
+      <div
+        class="w3-black w3-padding w3-display-topleft"
+        style="top:-25px">ESL Flashcard app
       </div>
-      <div class="site-mobile-menu-body"></div>
+      <img
+        src="images/front-end_capstone.png"
+        alt="front-end capstone: esl flashcard app"
+        style="object-fit:contain;height:500px;">
     </div>
 
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <div
+      class="w3-half w3-mobile w3-display-container"
+      style="height:500px;">
+      <div
+        class="w3-display-left w3-padding-large">
+        <p>
+          I taught English as a Second Language (ESL) in Taipei, Taiwan for a year and decided to leverage that experience to create a digital flashcard app dedicated to ESL students. Modern language students are tech savvy and are consuming the majority of their language content from electronic sources. This app provides them a solution with the simplicity, ease, and time-tested reliability of pencil and paper, enabling them to create flashcards to learn words they come across online.
 
-      <div class="container-fluid">
-        <div class="row align-items-center justify-content-center">
+          Technical details related to this project are as follows:
+        </p>
 
-          <div class="">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#services-section" class="nav-link">Experience</a></li>
-                <li><a href="#about-section" class="nav-link">About</a></li>
-
-              </ul>
-            </nav>
-          </div>
-
-          <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.html">Me.</a></h1>
-          </div>
-
-          <div class="text-left">
-
-            <nav class="site-navigation position-relative" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                <li><a href="#clients-section" class="nav-link">Technologies</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-
-
-            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-          </div>
-
-        </div>
-      </div>
-
-    </header>
-
-
-    <div class="site-blocks-cover overlay bg-light" id="home-section">
-
-      <div class="container">
-        <div class="row justify-content-center">
-
-          <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
-            <div class="row">
-              <div class="col-lg-6">
-                <h1 class="text-black">I'm Ryan Cunnin<span style="color:white">gham</span></h1>
-                <p class="lead"><span style="font-size:19.6px;">A Web Developer Based out of Nashville, <span style="color:white">TN</span></span></p>
-                <p><a href="#portfolio-section" class="btn smoothscroll btn-primary">Portfolio</a></p>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <img src="images/face.png" alt="Image" class="img-face" data-aos="fade">
-
-
-    </div>
-
-
-
-
-    <div class="site-section" id="services-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Experience</h2>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-style"></span></div>
-              <div class="service-about">
-                <h3>NASHVILLE SOFTWARE SCHOOL (NSS)</h3>
-                <p>Intensive, full-time, 6-month software development bootcamp
-focusing on both individual and team-based projects.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-layers"></span></div>
-              <div class="service-about">
-                <h3>NSS GROUP PROJECT: NUTSHELL</h3>
-                <p>Collaborated in a group of three others to create a single-page
-social dashboard web app initially using vanilla Javascript, then
-subsequently using React.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-business_center"></span></div>
-              <div class="service-about">
-                <h3>FORD MOTOR CREDIT COMPANY</h3>
-                <p>Responsible for various duties within the learning and
-development department, including building and maintaining internal customer-service representative knowledge base for various regions as well as converting Flash-based courses to Adobe Captivate.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-desktop_windows"></span></div>
-              <div class="service-about">
-                <h3>ACER / TECHNICAL WRITER</h3>
-                <p>Responsible for various duties within the Marketing department,
-including maintaining technical documentation for various business
-lines, writing certain aspects of marketing copy, and training new
-colleagues.</p>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
+        <ul>
+          <li>I used React to create this single-page web application</li>
+          <li>The flashcard info and values and are dynamic and saved/accessed locally using JSON server</li>
+          <li>The app itself is hosted locally using NPM</li>
+          <li>Styling is accomplished through the W3C CSS Framework</li>
+          <li>I used GitHub as my code repository, source control management system, and project planning tool</li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <div class="site-section" id="about-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 mb-4 position-relative">
-            <h2 class="section-title">About Me</h2>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0">
-            <div class="bg-light pt-5">
-            <img src="images/face.png" alt="Image" class="img-fluid">
-            </div>
-          </div>
-          <div class="col-lg-4 order-2 order-lg-1">
-            <p>I chose to pursue software development after getting some practice
-with HTML/CSS in my last job. I enjoyed being able to visualize an
-outcome and make that change on the screen.</p>
-            <p>In addition, I
-appreciate the culture of continued learning software development
-provides.</p>
-          </div>
-          <div class="col-lg-4 order-3 order-lg-3">
-            <p></p>
-            <p>Prior to this, I was a technical writer/instructional
-technologist in various industries and in numerous contexts. I believe
-these skills give me an edge in understanding and communicating
-usability from the user’s perspective.</p>
-            <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Me</a></p>
-          </div>
+  <!-- Bedtime story prompter -->
 
-        </div>
+  <div
+    class="w3-row-padding w3-mobile"
+    style="margin-bottom:100px;">
+    <div
+      class="w3-half s12 w3-center w3-display-container">
+      <div
+        class="w3-black w3-padding w3-display-topleft">
+        Bedtime story app
       </div>
+      <img
+        src="images/back-end_capstone.png"
+        alt="back-end capstone: bedtime story app"
+        style="object-fit:contain;height:500px;">
     </div>
+    <div
+      class="w3-half w3-mobile w3-display-container"
+      style="height:500px;">
+      <p>
+      I put my two small kids down to sleep every night and love telling them stories. They almost always tell me elements to include in the story: the characters, villains, setting, and so on. I tend to get the same story elements, and I want to spice up story time, so I decided to let technology help with that. This app enables parents to create a user account, add their children, and add specific examples to common story elements titles (e.g. hero, villain, setting, and so on). Then, parents are able to generate a random story prompt from those elements and save that prompt to the child's list of saved prompts.
+
+      Technical details related to this project are as follows:
+      </p>
+
+      <ul>
+        <li>I used Python’s Django framework to create this web application</li>
+        <li>Parents’ ability to register an account and log in is handled by Django’s internal authorization system</li>
+        <li>Kids, Story prompts, and story elements all have CRUD functionality and are all saved and referenced from a locally-hosted SQL database</li>
+        <li>Styling was accomplished through W3C CSS Framework</li>
+        <li>I used GitHub as my code repository, source control management system, and project planning tool</li>
+        <li>Wire frame and Entity Relationship Diagram (ERD) were made using moqup.com and dbdiagram.io, respectively</li>
+      </ul>
+    </div>
+  </div>
 
 
+  <!-- TECHNOLOGIES SECTION -->
+  <div
+    class="w3-container w3-padding-32"
+    id="technologies">
+    <h3
+      class="w3-border-bottom w3-border-light-grey w3-padding-16">
+      Technologies
+    </h3>
+  </div>
 
 
-    <section class="site-section block__62272" id="portfolio-section">
+  <!-- CONTACT SECTION -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form
+      action="mailto:rhc822@gmail.com?subject=Email%20from%20Ryan%20Cunningham%20Personal%20Website"
+      method="post"
+      enctype="text/plain"
+      target="_self">
+        <input
+          class="w3-input w3-border"
+          type="text"
+          placeholder="Name"
+          required
+          name="Name">
+        <input
+          class="w3-input w3-section w3-border"
+          type="text"
+          placeholder="Email"
+          required
+          name="Email">
+        <textarea
+          placeholder="Message"
+          class="w3-input w3-section w3-border"
+          required
+          name="Message"></textarea>
+        <button
+          class="w3-button w3-black w3-section"
+          type="submit">
+            SEND MESSAGE
+        </button>
+    </form>
+  </div>
 
 
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 position-relative">
-            <h2 class="section-title text-center mb-5">Portfolio</h2>
-          </div>
-        </div>
+<!-- End page content -->
+</div>
 
 
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="https://github.com/rhc822/ESL_flashcard_app" src="images/post_2.jpg" class="item-wrap">
-              <span style="font-size: 20px;">ESL Flashcard App (Front-End Capstone)</span>
-              <img class="img-fluid" src="images/post_2.jpg">
-            </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_3.jpg" class="item-wrap">
-              <span style="font-size: 20px;">Back-End Capstone (forthcoming)</span>
-              <img class="img-fluid" src="images/post_3.jpg">
-            </a>
-          </div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
-        </div>
-      </div>
-
-    </section>
-
-
-    <section class="site-section"  id="clients-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center">Technologies</h2>
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_1.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_2.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_3.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_4.jpg" alt="Image" class="img-fluid">
-          </div>
-
-
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_5.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_6.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img src="images/logo_7.jpg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section"  id="contact-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center">Contact</h2>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href=href="mailto:rhc822@gmail.com" src="images/contact_1.png" >
-              <img class="img-fluid" src="images/contact_1.png">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="linkedin.com/in/rhc822" src="images/contact_2.png" >
-              <img class="img-fluid" src="images/contact_2.png">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="https://github.com/rhc822" src="images/contact_3.png" >
-              <img class="img-fluid" src="images/contact_3.png">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="https://drive.google.com/file/d/1BYrfDT5dz1W13yK8pBiv4Ki_32Boj9py/view?usp=sharing" src="images/contact_4.png" >
-              <img class="img-fluid" src="images/contact_4.png">
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-
-    <footer class="site-section bg-light footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-          <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-        </div>
-      </div>
-    </footer>
-
-  </div> <!-- .site-wrap -->
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-
-
-  <script src="js/main.js"></script>
-
-  </body>
+</body>
 </html>
